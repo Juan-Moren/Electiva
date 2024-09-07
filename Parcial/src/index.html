@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="uft-8">
+    <meta name="viewport" content="width=device-width">
+    <title>UNICOLOMBO - registro estudiantes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <img src="Logo-Unicolombo.png" alt="UNICOLOMBO"
+            class="logo">
+        <h1>Registro de estudiantes</h1>
+    </header>
+
+    <main>
+        <section class="form-container">
+            <h2>Informacion del estudiante</h2>
+
+            <form action="" method="post" enctype="multipart/form-data">
+                <label for="foto">Foto del estudiante</label>
+                <input type="file" name="foto" id="foto" required>
+
+                <label for="nombre">Nombre Completo</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Introduzca tu nombre completo" required>
+
+                <label for="edad">Edad</label>
+                <input type="text" id="edad" name="edad" placeholder="Introduzca tu edad" required>
+
+                <label for="universidad">Universidad</label>
+                <input type="text" name="universidad" id="universidad"
+                    placeholder="Introduzca el nombre de su universidad" required>
+
+                <label for="carrera">carrera</label>
+                <input type="text" name="carrera" id="carrera" placeholder="Introduzca su carrera" required>
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Introduzca su correo electronico">
+
+                <button type="submit">Registrar</button>
+            </form>
+            
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Juan Moreno. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
